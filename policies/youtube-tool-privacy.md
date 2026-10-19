@@ -16,6 +16,16 @@ YouTubeチャンネル「仮面A」（https://www.youtube.com/@kamen_ace_bey）�
 - 認証情報（OAuthトークン）は運営者のコンピュータの中だけに保存し、外部へ送信しません。
 - 取得した情報を第三者に提供・販売しません。広告や分析の目的には使いません。
 
+## YouTube API サービスの利用
+
+このツールは YouTube API サービスを使用しています。このツールを使うことで、YouTube の利用規約（https://www.youtube.com/t/terms）に同意したことになります。Google によるデータの扱いは Google プライバシー ポリシー（https://policies.google.com/privacy）に従います。
+
+## データの保存期間と削除
+
+- ツールが手元に保存するのは、認証情報（OAuthトークン）と、アップロードの記録（動画IDと処理結果）だけです。
+- 認証情報は、権限を取り消すか、運営者が手元のファイルを削除した時点で無効になります。
+- アップロードの記録は、運営者自身の動画についての記録で、不要になった時点で削除します。削除の依頼は下記の連絡先で受け付け、受け付けてから7日以内に削除します。
+
 ## 権限の取り消し
 
 Googleアカウントの「サードパーティのアクセス」（https://myaccount.google.com/permissions）から、いつでも取り消せます。
@@ -43,6 +53,16 @@ An internal tool used by the operator of the YouTube channel "Kamen A" (https://
 
 - Authorization credentials (OAuth tokens) are stored only on the operator's computer and are never sent elsewhere.
 - No data is shared with or sold to third parties, or used for advertising or analytics.
+
+## Use of YouTube API Services
+
+This tool uses YouTube API Services. By using this tool, you agree to be bound by the YouTube Terms of Service (https://www.youtube.com/t/terms). Google's handling of data is governed by the Google Privacy Policy (https://policies.google.com/privacy).
+
+## Data retention and deletion
+
+- The tool stores locally only the authorization credentials (OAuth token) and an upload log (video IDs and processing results).
+- Credentials become invalid when access is revoked or the operator deletes the local file.
+- The upload log concerns only the operator's own videos and is deleted when no longer needed. Deletion requests are accepted at the contact below and completed within 7 days.
 
 ## Revoking access
 
