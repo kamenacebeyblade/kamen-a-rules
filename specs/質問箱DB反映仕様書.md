@@ -71,7 +71,7 @@ note質問箱の**公開後**の工程——回答を断言台帳へ反映する
 - 置き場所は、ルーティン専用のクラウド環境 `kamen-a` の環境変数に限る
 - 置いてよいのは `WEB_APP_URL` のみ。**`API_TOKEN` は置かない**
 - 根拠：GETは無認証で読める設計である。ただし `ledger` には未公開の【仮説】【未確認】が含まれ、URLを知られないことが唯一の防御である点は変わらない。環境変数は、その環境の利用者（CEO本人のみ）にしか見えない
-- ルーティンは `parts.csv` を、`PARTS_CSV_URL` の代わりに raw URL（`inagaki-kado/ibs_mini`）から直接取得する。公開リポジトリのURLであり、秘密情報ではない
+- ルーティンは `parts.csv` を、`PARTS_CSV_URL` の代わりに raw URL（`kamen-a-rules/refs/parts.csv`）から直接取得する。公開リポジトリのURLであり、秘密情報ではない
 
 **GASがGitHubを読み書きする鍵は `GITHUB_TOKEN`**【v1.1新設】である。対象は `kamen-a-workflow` のみ、権限はContentsの読み書きのみ。GASのスクリプトプロパティにだけ置く。`API_TOKEN` とは別物である。
 
